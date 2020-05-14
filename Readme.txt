@@ -32,3 +32,8 @@ If for whatever reason the update fails, the script will not update DNSoMatic un
 This is rare, but could happen. 
 It would be recommended to set up a third scheduler with longer intervals (maybe 1 hour) 
 to run a script with the following code: Backup.txt
+
+
+Credit for Wiki Mikrotik
+https://wiki.mikrotik.com/wiki/Dynamic_DNS_Update_Script_for_DNSoMatic.com_behind_NAT
+https://wiki.mikrotik.com/wiki/Dynamic_DNS_Update_Script_for_DNSoMatic.com
