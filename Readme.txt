@@ -3,8 +3,8 @@ The main advantage on this solution is that DNSoMatic offers the possibility of 
 DynDNS, Change IP and other 27 more.
 
 If you're looking for a script that will run on a MikroTik that is not behind a NAT and behind NAT
--Behind NAT Network
--Not Behind NAT
+-Behind NAT Network.txt
+-Not Behind NAT.txt
 
 Current Version
 
