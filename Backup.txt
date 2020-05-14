@@ -1,0 +1,14 @@
+This will also need you to configure scheduler entry for periodical runs (maybe every 5 minutes or so). 
+You will probably want a second scheduler event run this script upon RouterOS startup.
+
+If for whatever reason the update fails, the script will not update DNSoMatic until the IP address changes again. 
+This is rare, but could happen. 
+It would be recommended to set up a third scheduler with longer intervals (maybe 1 hour) to run a script with the following code:
+
+
+
+
+:global previousIP;
+:set previousIP ""
+
+:log info "Cleared previousIP to force DNS-O-Matic update on next run."
